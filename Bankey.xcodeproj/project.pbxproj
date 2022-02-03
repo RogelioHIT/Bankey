@@ -11,6 +11,8 @@
 		E943475B279E672700481318 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943475A279E672700481318 /* LocalState.swift */; };
 		E94BF4FF279795D900854823 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94BF4FE279795D900854823 /* OnBoardingContainerViewController.swift */; };
 		E94BF50127979F5B00854823 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94BF50027979F5B00854823 /* OnBoardingViewController.swift */; };
+		E9795E2727AA157C00D57AB6 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9795E2627AA157C00D57AB6 /* UIViewController+Utils.swift */; };
+		E9795E2927AA173D00D57AB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9795E2827AA173D00D57AB6 /* MainViewController.swift */; };
 		E98A86A3278E6F7D00B70ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A86A2278E6F7D00B70ED5 /* AppDelegate.swift */; };
 		E98A86A7278E6F7D00B70ED5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A86A6278E6F7D00B70ED5 /* LoginViewController.swift */; };
 		E98A86AC278E6F7F00B70ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98A86AB278E6F7F00B70ED5 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		E943475A279E672700481318 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		E94BF4FE279795D900854823 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		E94BF50027979F5B00854823 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		E9795E2627AA157C00D57AB6 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		E9795E2827AA173D00D57AB6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E98A869F278E6F7D00B70ED5 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98A86A2278E6F7D00B70ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98A86A6278E6F7D00B70ED5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				E943475A279E672700481318 /* LocalState.swift */,
+				E9795E2627AA157C00D57AB6 /* UIViewController+Utils.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -79,10 +84,11 @@
 		E98A86A1278E6F7D00B70ED5 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				E9434759279E671B00481318 /* Util */,
-				E94BF4FD2797955400854823 /* OnBoarding */,
-				E98F6640278E7C39008A6692 /* Login */,
 				E98A86A2278E6F7D00B70ED5 /* AppDelegate.swift */,
+				E9795E2827AA173D00D57AB6 /* MainViewController.swift */,
+				E98F6640278E7C39008A6692 /* Login */,
+				E94BF4FD2797955400854823 /* OnBoarding */,
+				E9434759279E671B00481318 /* Util */,
 				E98F663F278E7C21008A6692 /* Files */,
 			);
 			path = Bankey;
@@ -178,11 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9795E2727AA157C00D57AB6 /* UIViewController+Utils.swift in Sources */,
 				E98F6642278E7D88008A6692 /* LoginView.swift in Sources */,
 				E943475B279E672700481318 /* LocalState.swift in Sources */,
 				E9434758279E61E300481318 /* DummyViewController.swift in Sources */,
 				E98A86A7278E6F7D00B70ED5 /* LoginViewController.swift in Sources */,
 				E98A86A3278E6F7D00B70ED5 /* AppDelegate.swift in Sources */,
+				E9795E2927AA173D00D57AB6 /* MainViewController.swift in Sources */,
 				E94BF4FF279795D900854823 /* OnBoardingContainerViewController.swift in Sources */,
 				E94BF50127979F5B00854823 /* OnBoardingViewController.swift in Sources */,
 			);
